@@ -1,0 +1,166 @@
+body{ margin:0; 
+	font:normal 100% Arial, Helvetica, sans-serif; 
+} 
+canvas{
+ display: block; 
+
+ vertical-align: bottom; } /* ---- particles.js container ---- */
+ #particles-js{
+ 	z-index: 1;
+  position:absolute; 
+width: 100%; height: 100%; 
+background-color: black; 
+ 	/*background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/WgeRenM/videoblocks-looping-darkness-purple-abstract-cg-animated-background_rfgkxcrsg_thumbnail-full01.png"); background-repeat: no-repeat; background-size: cover;
+ 	*/ background-position: 50% 50%; } /* ---- stats.js ---- */ 
+ 	 /*.count-particles{ background: #000022;
+ 	  position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; 
+ 	  text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; 
+ 	  font-family: Helvetica, Arial, sans-serif; font-weight: bold; }*/
+ 	   .js-count-particles{ font-size: 1.1em; } 
+ 	   #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } 
+ 	   #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } 
+ 	   .count-particles{ border-radius: 0 0 3px 3px; }
+
+ 	   .headd{
+ 	   	color:white;
+ 	   	font-size: 40px;
+ 	   	z-index: 2
+ 	   }
+ 	   .test {
+ 	   margin-top: 600px; 
+       index: 50;
+
+  width: 100%
+  top: 100px;
+  position: absolute;
+}
+ 	   .container2{
+ 	   	margin-bottom: 100px;
+ 	   	margin-top: 100px;
+ 	   }
+ 	   
+ 	   #hello {
+  position:absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  text-align:center;
+  color: #fff;
+  z-index: 9999;
+}
+.see{
+   display:inline-block;
+   text-align: center;
+}
+.centerFlex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.dropdown-menu{
+  color: white;
+  background-color:black;
+
+}
+a.dropdown-item{
+color: white;
+  background-color:black;
+  font-size: 20px;
+}
+a.dropdown-item:hover{
+color: #9B0FCA;
+  background-color:black;
+}
+.nav-item{
+  font-size: 20px;
+}
+
+
+/*escape*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.body2 {
+  text-align:center;
+ /* background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);*/
+  color:#555;
+  font-family:'Roboto';
+  font-weight:800;
+  width: 100%;
+  /*width: 1350px;*/
+  font-size:56px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+.esc {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  color: white;
+}
+
+.esc:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.esc:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.esc:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:560px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:560px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
+.btn-outline-dark{
+  font-size: 20px;
+  color: white;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: white;
+}
+.btn-outline-dark:hover{
+  font-size: 20px;
+  color: white;
+  background-color: #9B0FCA;
+  border-width: 4px;
+  border-radius: 10px;
+  border-color: #9B0FCA;
+}

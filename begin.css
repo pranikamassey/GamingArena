@@ -1,0 +1,25 @@
+body{
+	text-align:center;
+  background-image: url("https://wallpapercave.com/wp/8KjYWfC.png");
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.dropdown-menu{
+  color: white;
+  background-color:black;
+
+}
+a.dropdown-item{
+color: white;
+  background-color:black;
+  font-size: 20px;
+}
+a.dropdown-item:hover{
+color: #9B0FCA;
+  background-color:black;
+}
+.nav-item{
+  font-size: 20px;
+}
